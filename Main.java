@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Введите n ");
         int n = in.nextInt();
         // проверка отрицательности n
-        if (n > 0){
+        if (n < 0){
             System.out.println("n должен быть положительным");
         }
         System.out.println("Введите x");
